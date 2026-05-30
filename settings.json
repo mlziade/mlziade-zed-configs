@@ -1,4 +1,8 @@
 {
+  "edit_predictions": {
+    "disabled_globs": ["**/.env*", "**/*.pem", "**/*.key"],
+    "mode": "subtle"
+  },
   "terminal": {
     "show_count_badge": false,
     "shell": {
@@ -26,5 +30,28 @@
     "mode": "dark",
     "light": "Ayu Light",
     "dark": "Ayu Dark"
+  },
+  "soft_wrap": "editor_width",
+  "wrap_guides": [80, 120],
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true
+  },
+  "auto_install_extensions": {
+    "dockerfile": true,
+    "docker-compose": true,
+    "html": true,
+    "css": true,
+    "json": true,
+    "yaml": true,
+    "toml": true,
+    "python": true,
+    "go": true,
+    "javascript": true,
+    "typescript": true,
+    "terraform": true,
+    "markdown": true,
+    "markdown_preview": true
   }
 }
